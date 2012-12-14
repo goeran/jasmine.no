@@ -14,5 +14,12 @@ var da = it;
 var xda = xit;
 
 //beforeEach
-førHverTest = beforeEach;
-etterHverTest = afterEach;
+var førHverTest = beforeEach;
+var etterHverTest = afterEach;
+
+var skal = function(args) {
+	var positive = expect(args);
+	positive.ikke = positive.not
+	return positive;
+}
+var xskal = xexpect;
