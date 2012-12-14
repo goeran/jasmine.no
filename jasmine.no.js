@@ -23,4 +23,3 @@ var skal = function(args) {
 	positive.ikke = positive.not
 	return positive;
 }
-var xskal = xexpect;
