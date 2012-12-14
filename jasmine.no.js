@@ -17,6 +17,7 @@ var xda = xit;
 var førHverTest = beforeEach;
 var etterHverTest = afterEach;
 
+//expect & not
 var skal = function(args) {
 	var positive = expect(args);
 	positive.ikke = positive.not
